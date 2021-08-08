@@ -1,5 +1,5 @@
-const reigion = process.env.REIGION;
-const key = process.env.KEY;
+const reigion = "REIGION";
+const key = "KEY";
 
 const speechTranslationConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(key, reigion);
 
