@@ -24,7 +24,7 @@ jobs:
         REACT_APP_APISecret: ${{ secrets.REACT_APP_APISecret }}
 
     - name: Deploy
-      uses: ganning127/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
         KEY: ${{ secrets.KEY }}
         REIGION: $ {{ secrets.REIGION }} 
