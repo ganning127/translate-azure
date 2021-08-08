@@ -1,6 +1,6 @@
 const reigion = process.env.REIGION;
 const key = process.env.KEY;
-
+// test commit 
 const speechTranslationConfig = SpeechSDK.SpeechTranslationConfig.fromSubscription(key, reigion);
 
 let output = document.getElementById("output");
