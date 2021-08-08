@@ -1,0 +1,21 @@
+.f {
+    border: 2px solid red;
+}
+
+#output {
+    line-height: 3.5rem;
+    font-weight: lighter;
+}
+
+.hidden {
+    display: none;
+}
+
+select {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.lead {
+    margin-bottom: 0.5rem;
+}
